@@ -2,7 +2,8 @@
 
 # METHODOLOGY
 # ALGORITHMIC DETAILS
-Algorithm (For Wordbook):
+# Algorithm (For Wordbook):
+
 Step1: Initialize the modules required ‘from tkinter import *’ to create the GUI window.
        ‘from tkinter import messagebox’ to display message box.
        ‘import json’ to access the words and their meanings.
@@ -10,7 +11,7 @@ Step1: Initialize the modules required ‘from tkinter import *’ to create the
        ‘from difflib import get_close_matches’ to compare sets of data and return the best set of values.
        ‘from PIL import ImageTk, Image’ to load images from user system to tkinter window’.
        ‘import os, sys’ to interact with the operating system. 
-Step2: Create instance of ‘engine’ class to convert text to speech. 
+Step 2: Create instance of ‘engine’ class to convert text to speech. 
 Step 3: Define a function ‘wordaudio()’ to convert the input word from user to audio. 
 Step 4: Define a function ‘meaningaudio()’ to convert the displayed meaning to audio. 
 Step 5: Define a function ‘iexit()’ to exit the window, containing message box. 
